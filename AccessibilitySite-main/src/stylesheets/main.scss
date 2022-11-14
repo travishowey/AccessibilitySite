@@ -1,0 +1,244 @@
+header {
+    background-color: #004d40;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 6.3rem;
+    text-align: center;
+    padding-right: .5em;
+    padding-left: .5em;
+    padding-bottom: .5em;
+}
+
+main {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.topNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dde2c6;
+    padding-left: 5em;
+    font-size: 1.5em;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+  }
+
+.references {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Arial', monospace;
+    font-size: 1.75rem;
+}
+
+ul {
+    font-size: 2rem;
+}
+li {
+    list-style: none;
+    font-size: 2rem;
+}
+
+ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+
+.links {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #abb095;
+    text-decoration: underline;
+  }
+li a:active {
+    color: white;
+}
+nav a[aria-current=page]{
+    color: #F98948;
+    border: 3px solid #F98948;
+}
+nav a[aria-current=page]:active{
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+p {
+      font-family: 'Arial', monospace;
+      font-size: 2rem;
+}
+blockquote {
+    font-family: 'Arial', monospace;
+    font-size: 1.75rem;
+    font-style: italic;
+}
+
+dd {
+    font-family: 'Arial', monospace;
+    font-size: 1.5rem;
+}
+dt {
+    font-family: 'Arial', monospace;
+    font-size: 1.75rem;
+}
+
+section {
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+}
+
+.visuallyHidden {
+    display: none;
+}
+
+.maincontent {
+    position: relative;
+    height: 100%;
+    padding-right: 25rem;
+}
+.aside {
+    height: 100%;
+    padding-top: 500px;
+    width: 20rem; 
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #ffba76;
+    padding-top: 20px;
+  }
+.aside h2 {
+    padding-left: 5rem;
+}
+aside ul {
+    list-style-type: none;
+    font-size: 2rem;
+}  
+footer {
+    background-color: #004d40;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 6.3rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+th {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 4rem;
+    background-color: #ffba76;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+td {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    text-align: center;
+    border-right: 2px solid black;
+}
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin:0px auto;
+}
+
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-size:1.5rem;
+    overflow:hidden;
+    padding:10px 5px;
+}
+
+.tg th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-size:2rem;
+    overflow:hidden;
+    padding:10px 5px;
+ 
+}
+
+.tg .tg-gender{
+    border-color:inherit;
+    position:-webkit-sticky;
+    position:sticky;
+    text-align:left;
+    top:-1px;
+    vertical-align:top;
+    will-change:transform
+}
+
+.tg .gendercell{
+    border-color:inherit;
+    text-align:left;
+    vertical-align:top
+}
+
+@media screen and (max-width: 767px) {
+    .tg {width: auto !important;}
+    .tg col {width: auto !important;}
+    .tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}
+}
+
+caption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+.formName {
+    border: 2px solid black;
+    border-radius: .25rem;
+}
+
+legend {
+    font-size: 1.5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
