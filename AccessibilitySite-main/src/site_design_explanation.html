@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Site Design Explanations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheets/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500" rel="stylesheet">
+</head>
+
+<body>
+
+<header role="banner">
+  Travis Howey's Accessible Site
+</header>
+
+<nav role="navigation" aria-label="Main Navigation" aria-labelledby="mainNav">
+  <h2 class="visuallyHidden" id="mainNav">Main Navigation</h2>
+  <ul class="topNav">
+    <li class="links" id="links"><a href="index.html">Home</a></li>
+    <li class="links" id="links"><a href="about.html">About Me</a></li>
+    <li class="links" id="links"><a href="plain_language.html">Plain Language</a></li>
+    <li class="links" id="links"><a href="#"><span class="visuallyHidden">Current Page: </span>Site Design</a></li>
+  </ul>
+</nav>
+
+
+<main role="main">
+<h1>Site Design Explanations</h1>
+
+<h2>Visual Design</h2>
+<p>One of the key themes that I really wanted to stick to with this site was simple design. This included using simple
+    colors and fonts in order to try to keep the site as readable as possible. By keeping the colors to a minimum, I
+    wanted to make sure the visual distractions were kept to a minimum. By keeping the fonts simple and minimal, I
+    attempted to keep visual distractions to a minimum as well.
+</p>
+<p>
+    The colors chosen for the site were also chosen with color blind users in mind. The orange and green colors that 
+    the site does use are at risk of causing some issues with blue-yellow color blind users, the way these colors are
+    implemented on the site should cause little to no problem. Once the colors were implemented on the site, the site 
+    was tested using Window's built in color filters and it passed all checks.
+</p>
+
+<h2>Structural Design</h2>
+<p>
+    The structural design of the website was created with the explicit intent of keeping things as accessible as possible.
+    This was achieved in a meriad of ways. One of these ways was by keeping the design very straightforward. There 
+    is not a lot of multi-column layouts. This way screen readers would be able to really just read straight down the 
+    page without needing to jump around much.
+</p>
+<p>
+    Another way I really tried to emphasise structural design in my website was by using the things I was taught in
+    class to make the site as accessible as possible. One of the tactics that I employed was creating tables with
+    accessibility in mind first. Using scopes to define rows and columns of the table helps, as well as using captions
+    to give a quick understanding of the content of the table. Along this same line of thinking, when showing images,
+    I used very descriptive alt text in order to describe the image in great detail so that someone who might be 
+    visually impaired is still able to understand the content of the image.
+</p>
+
+<h3></h3>
+
+</main>
+
+
+
+<footer role="contentinfo">
+  <h2>&#169 Copyright Travis Howey 2022</h2>
+</footer>
+
+  <script src="javascripts/main.js"></script>
+</body>
+</html>

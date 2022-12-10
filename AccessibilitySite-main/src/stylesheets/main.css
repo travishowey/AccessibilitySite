@@ -253,7 +253,7 @@ td {
 }
 caption {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 
 .formName {
@@ -265,4 +265,17 @@ legend {
   font-size: 1.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.about_image {
+  width: 75em;
+}
+
+@media only screen and (min-width: 1274) {
+  .about_image {
+    width: 25em;
+  }
+}
+.summary {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=main.css.map */
